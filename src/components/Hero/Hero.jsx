@@ -117,13 +117,13 @@ export default function Hero() {
               </div>
               <div className="diag-line">
                 <span className="diag-label">MEM_LOAD:</span>
-                <span className="diag-value">44.2%</span>
+                <span className="diag-value">100%</span>
               </div>
               <div className="diag-line">
                 <span className="diag-label">LOC:</span>
                 <span className="diag-value">41.8781° N, 87.6298° W</span>
               </div>
-              <div className="diag-line">
+              <div className="diag-line"><div className="3">`</div>
                 <span className="diag-label">INTEGRITY:</span>
                 <span className="diag-value safe">SECURE (100%)</span>
               </div>

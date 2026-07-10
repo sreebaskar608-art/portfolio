@@ -44,21 +44,19 @@ export default function Resume() {
         {/* Header */}
         <div className="section-header-wrap">
           <div className="sub-title-cyber">[ SYS_HISTORY_LOG ]</div>
-          <h2 className="cyber-title">Professional Log</h2>
+          <h2 className="cyber-title">ProfessionalLog</h2>
         </div>
 
         {/* Timeline Log Grid */}
         <div className="timeline-wrap">
           {timelineData.map((item, index) => (
             <div key={index} className="timeline-row">
-              {/* Timeline Left: Log info & timestamp */}
               <div className="timeline-side-info">
                 <div className="log-badge cyber-brackets">{item.id}</div>
                 <div className="log-date">{item.date}</div>
                 <div className="log-type-tag">{item.type}</div>
               </div>
 
-              {/* Timeline Connector Line */}
               <div className="timeline-spine">
                 <div className="spine-dot"></div>
                 <div className="spine-line"></div>
@@ -71,7 +69,7 @@ export default function Resume() {
                   <span className="timeline-company">{item.company}</span>
                 </div>
                 <p className="timeline-desc">{item.description}</p>
-                <div className="box-deco-element">LINK_SECURE</div>
+                <div className="box-deco-element">LINK-SECURE</div>
               </div>
             </div>
           ))}
