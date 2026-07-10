@@ -101,9 +101,6 @@ export default function Hero() {
             Computer Science student with a builder mindset.Transforming concepts into real-world applications.Skilled in Python, HTML, CSS, and modern web tools. jDriven by curiosity, innovation, and continuous growth.
           </p>
           <div className="hero-cta-group">
-            <a href="#contact" className="cyber-btn">
-              <span className="btn-icon">⚡</span> Establish Uplink
-            </a>
             <a href="#projects" className="cyber-btn secondary-btn">
               <span>View Builds</span>
             </a>  

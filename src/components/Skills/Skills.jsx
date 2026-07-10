@@ -22,7 +22,7 @@ export default function Skills() {
     { name: 'Express.js', level: 80, category: 'frameworks', code: 'EX-202' },
     { name: 'Vite / React Ecosystem', level: 90, category: 'frameworks', code: 'VT-203' },
     
-    { name: 'mqsql', level: 80, category: 'database', code: 'MQ-301' },
+    { name: 'MySQL', level: 70, category: 'database', code: 'MQ-301' },
 
     { name: 'Figma', level: 100, category: 'tools', code: 'FG-401' },
     { name: 'Canva', level: 75, category: 'tools', code: 'CV-402' }

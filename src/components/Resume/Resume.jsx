@@ -5,11 +5,11 @@ export default function Resume() {
   const timelineData = [
     {
       id: 'LOG_01',
-      date: '2024 - PRESENT',
-      type: 'EXPERIENCE',
-      role: 'Lead Frontend Developer',
-      company: 'CyberSolutions Corp',
-      description: 'Architecting high-fidelity, responsive user interfaces and modern React architectures. Optimizing performance bottlenecks, reducing bundle size by 35%, and establishing styling guide structures for a team of 6 engineers.'
+      date: '2024 - INTERNSHIP',
+      type: 'INTERN',
+      role: 'FULLSTACK  DEVELOPMENT INTERN',
+      company: 'Gen lab',
+      description: 'Completed a one-month Full Stack Development internship, gaining hands-on experience in building responsive web applications, writing clean code, and collaborating on real-world development tasks.Completed a one-month Full Stack Development internship, gaining hands-on experience in building responsive web applications, writing clean code, and collaborating on real-world development tasks'
     },
     {
       id: 'LOG_02',
@@ -29,10 +29,10 @@ export default function Resume() {
     },
     {
       id: 'LOG_04',
-      date: '2016 - 2020',
+      date: '2024 - 2028',
       type: 'EDUCATION',
-      role: 'B.S. in Computer Science',
-      company: 'Cybernetic Institute of Technology',
+      role: 'B.E. in Computer Science AND ENGINEERING',
+      company: 'RAJALAKSHMI ENGINEERING COLLEGE',
       description: 'Focused on software engineering principles, database architectures, network design, and artificial intelligence models. Graduated with honors, presenting a thesis on distributed systems.'
     }
   ];
@@ -80,8 +80,8 @@ export default function Resume() {
         {/* Download Resume Call-to-action */}
         <div className="resume-download-banner cyber-corner-box">
           <div className="banner-details">
-            <h3 className="banner-title">REQUEST_FULL_MANIFEST</h3>
-            <p className="banner-text">Export a highly structured PDF containing comprehensive project history and educational records.</p>
+            <h3 className="banner-title">RESUME</h3>
+            <p className="banner-text">Driven Computer Science student with a passion for technology, innovation, and continuous learning.</p>
           </div>
           <a href="#" className="cyber-btn" onClick={(e) => {
             e.preventDefault();

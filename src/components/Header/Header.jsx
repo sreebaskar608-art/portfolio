@@ -54,13 +54,13 @@ export default function Header() {
             <span className="nav-num">01.</span>HOME
           </a>
           <a href="#skills" onClick={() => setMenuOpen(false)}>
-            <span className="nav-num">02.</span>SUBSYSTEMS
+            <span className="nav-num">02.</span>SKILLS
           </a>
           <a href="#resume" onClick={() => setMenuOpen(false)}>
             <span className="nav-num">03.</span>LOGS
           </a>
           <a href="#projects" onClick={() => setMenuOpen(false)}>
-            <span className="nav-num">04.</span>BUILDS
+            <span className="nav-num">04.</span>PROJECTS
           </a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>
             <span className="nav-num">05.</span>UPLINK
