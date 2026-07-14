@@ -3,39 +3,26 @@ import './Resume.css';
 
 export default function Resume() {
   const timelineData = [
+  
+
     {
       id: 'LOG_01',
-      date: '2024 - INTERNSHIP',
-      type: 'INTERN',
-      role: 'FULLSTACK  DEVELOPMENT INTERN',
-      company: 'Gen lab',
-      description: 'Completed a one-month Full Stack Development internship, gaining hands-on experience in building responsive web applications, writing clean code, and collaborating on real-world development tasks.Completed a one-month Full Stack Development internship, gaining hands-on experience in building responsive web applications, writing clean code, and collaborating on real-world development tasks'
-    },
-    {
-      id: 'LOG_02',
-      date: '2022 - 2024',
-      type: 'EXPERIENCE',
-      role: 'Full Stack Engineer',
-      company: 'NeoTech Systems',
-      description: 'Developed and maintained robust web portals using Node.js, React, and PostgreSQL. Spearheaded the migration of legacy projects into modern Vite setups, and integrated third-party REST services.'
-    },
-    {
-      id: 'LOG_03',
-      date: '2020 - 2022',
-      type: 'EXPERIENCE',
-      role: 'Junior Frontend Developer',
-      company: 'WebMatrix Solutions',
-      description: 'Collaborated in building custom e-commerce engines, internal CMS interfaces, and dashboard visualization widgets. Developed pixel-perfect responsive pages matching Figma UI wireframes.'
-    },
-    {
-      id: 'LOG_04',
       date: '2024 - 2028',
       type: 'EDUCATION',
       role: 'B.E. in Computer Science AND ENGINEERING',
       company: 'RAJALAKSHMI ENGINEERING COLLEGE',
       description: 'Focused on software engineering principles, database architectures, network design, and artificial intelligence models. Graduated with honors, presenting a thesis on distributed systems.'
+    },
+    {
+      id: 'LOG_02',
+      date: '2024 - INTERNSHIP',
+      type: 'INTERN',
+      role: 'FULLSTACK  DEVELOPMENT INTERN',
+      company: 'Gen lab',
+      description: 'Completed a one-month Full Stack Development internship, gaining hands-on experience in building responsive web applications, writing clean code, and collaborating on real-world development tasks.Completed a one-month Full Stack Development internship, gaining hands-on experience in building responsive web applications, writing clean code, and collaborating on real-world development tasks'
     }
-  ];
+    ];
+
 
   return (
     <section id="resume" className="cyber-resume">
@@ -44,7 +31,7 @@ export default function Resume() {
         {/* Header */}
         <div className="section-header-wrap">
           <div className="sub-title-cyber">[ SYS_HISTORY_LOG ]</div>
-          <h2 className="cyber-title">ProfessionalLog</h2>
+          <h2 className="cyber-title">Professional-Log</h2>
         </div>
 
         {/* Timeline Log Grid */}
@@ -85,7 +72,7 @@ export default function Resume() {
             e.preventDefault();
             alert("SYSTEM NOTIFICATION: PDF Manifest generated. Downloading simulated portfolio data...");
           }}>
-            <span>↓ DOWNLOAD_MANIFEST.PDF</span>
+            <span>↓ resume.PDF</span>
           </a>
         </div>
 

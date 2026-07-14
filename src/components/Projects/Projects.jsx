@@ -5,7 +5,7 @@ export default function Projects() {
   const projectsData = [
     {
       id: 'PROJECT_01',
-      title: 'AetherNet Engine',
+      title: '',
       subtitle: 'DECENTRALIZED CHAT CORE',
       tech: ['React', 'WebSockets', 'Node.js', 'Express'],
       description: 'A high-throughput decentralized message relay built for low-latency node-to-node telemetry transmission. Features encrypted data payloads and real-time network latency maps.',
