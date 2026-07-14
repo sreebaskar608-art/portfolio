@@ -72,7 +72,7 @@ export default function Resume() {
             e.preventDefault();
             alert("SYSTEM NOTIFICATION: PDF Manifest generated. Downloading simulated portfolio data...");
           }}>
-            <span>↓ resume.PDF</span>
+            <span>↓resume.PDF</span>
           </a>
         </div>
 
