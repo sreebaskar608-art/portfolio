@@ -15,7 +15,7 @@ export default function Resume() {
     },
     {
       id: 'LOG_02',
-      date: '2024 - INTERNSHIP',
+      date: '2024-NTERNSHIP',
       type: 'INTERN',
       role: 'FULLSTACK  DEVELOPMENT INTERN',
       company: 'Gen lab',
